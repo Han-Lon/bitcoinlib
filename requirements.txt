@@ -1,4 +1,4 @@
-requests>=2.25.0
+requests>=2.32.0
 fastecdsa>=2.2.1
 SQLAlchemy>=1.4.24
 numpy>=1.21.0
