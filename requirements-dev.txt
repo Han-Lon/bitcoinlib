@@ -1,5 +1,5 @@
-requests>=2.25.0
-fastecdsa>=2.2.1
+requests>=2.31.0
+fastecdsa>=2.3.2
 scrypt>=0.8.18
 pycryptodome>=3.14.1
 SQLAlchemy>=1.4.45
@@ -11,3 +11,9 @@ mysql-connector-python>=8.0.27
 mysqlclient>=2.1.0
 parameterized>=0.8.1
 sphinx_rtd_theme>=1.0.0
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+jinja2>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
+protobuf>=3.18.3 # not directly required, pinned by Snyk to avoid a vulnerability
+pygments>=2.15.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
