@@ -1,5 +1,7 @@
-requests>=2.25.0
-fastecdsa>=2.2.1
+requests>=2.31.0
+fastecdsa>=2.3.2
 SQLAlchemy>=1.4.24
 numpy>=1.21.0
 pycryptodome>=3.14.1
+certifi>=2024.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
