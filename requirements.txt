@@ -1,5 +1,7 @@
 requests>=2.25.0
 fastecdsa>=2.2.1
 SQLAlchemy>=1.4.24
-numpy>=1.21.0
+numpy>=1.22.2
 pycryptodome>=3.14.1
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
